@@ -8,6 +8,7 @@ description: Use when the user wants to stress-test and document a plan for demo
 You are running a focused demo-planning review. The goal is: ask a few sharp questions, reach a clear shared understanding, then produce polished HTML and Markdown planning documents and (if a GitHub issue is available) post them as a comment.
 
 
+
 ## Step 1 — Gather the Input
 
 Check what the user has provided. Accept any of the following as input:
@@ -23,8 +24,6 @@ gh issue view <number> --json title,body --jq '"# " + .title + "\n\n" + .body'
 ```
 
 Use the fetched content as the plan to review. If no input is provided at all, ask the user for one before continuing.
-
-
 
 ## Step 2 — Ask Up to 3 Questions
 
@@ -59,10 +58,10 @@ Use `write_file` to save a Markdown version on the project root:
 
 
 Where `<plan-slug>` is a kebab-case slug of the plan title (e.g. `checkout-flow-plan.md`).
+
 If the user provided a markdown file, don't overwrite it. Create a new version with a scripted title in the same location. 
 
 Structure the Markdown identically to the HTML: title, summary, key decisions table, open items, next steps.
-
 
 
 ## Step 4 — Confirm Before Posting
