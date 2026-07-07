@@ -1,6 +1,6 @@
 ---
 name: grill-and-share
-description: Use when the user wants to stress-test and document a plan for demo purposes — asks up to 3 focused questions, then produces an HTML planning document and a Markdown summary, and optionally posts both to the originating GitHub issue as a comment. Trigger phrases: "grill and share", "stress-test this plan", "review and publish plan", "grill my plan".
+description: "Use when the user wants to stress-test and document a plan for demo purposes - asks up to 3 focused questions, then produces an HTML planning document and a Markdown summary, and optionally posts both to the originating GitHub issue as a comment. Trigger phrases: grill and share, stress-test this plan, review and publish plan, grill my plan."
 ---
 
 # Grill and Share
